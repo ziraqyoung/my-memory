@@ -13,6 +13,7 @@ import com.github.ziraqyoung.mymemory.models.MemoryGame
 import com.github.ziraqyoung.mymemory.utils.DEFAULT_ICONS
 import com.google.android.material.snackbar.Snackbar
 
+
 class MainActivity : AppCompatActivity() {
     companion object {
         private const val TAG = "MainActivity"
@@ -71,5 +72,4 @@ class MainActivity : AppCompatActivity() {
         }
         adapter.notifyDataSetChanged()
     }
-
 }
